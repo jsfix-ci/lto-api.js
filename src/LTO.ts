@@ -2,7 +2,6 @@ import { Account } from "./classes/Account";
 import { Event } from "./classes/Event";
 import { EventChain } from "./classes/EventChain";
 import { Request } from "./classes/Request";
-import { IdentityBuilder } from "./classes/IdentityBuilder";
 import { Anchor } from "./classes/transactions/anchor";
 import { Transfer } from "./classes/transactions/transfer";
 import { Association } from "./classes/transactions/association";
@@ -21,10 +20,9 @@ import ed2curve from "./libs/ed2curve";
 import crypto from "./utils/crypto";
 import logger from "./utils/logger";
 import { IKeyPairBytes } from "../interfaces";
-import { networkByte } from "@lto-network/lto-transactions/dist/generic";
 
 
-export { Account, Event, EventChain, Request, IdentityBuilder, AccountFactoryED25519, AccountFactoryECDSA };
+export { Account, Event, EventChain, Request, AccountFactoryED25519, AccountFactoryECDSA };
 
 export class LTO {
 
