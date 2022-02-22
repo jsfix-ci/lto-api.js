@@ -12,6 +12,7 @@ import { CancelSponsorship } from "./classes/transactions/CancelSponsorship";
 import { MassTransfer } from "./classes/transactions/massTransfer";
 import { AccountFactoryED25519 } from "./classes/AccountFactories/AccountFactoryED25519"
 import { AccountFactoryECDSA } from "./classes/AccountFactories/AccountFactoryECDSA"
+import { PublicNode } from "./classes/publicNode";
 
 import config from "./config";
 import * as constants from "./constants";
@@ -22,7 +23,7 @@ import logger from "./utils/logger";
 import { IKeyPairBytes } from "../interfaces";
 
 
-export { Account, Event, EventChain, Request, AccountFactoryED25519, AccountFactoryECDSA };
+export { Account, Event, EventChain, Request, AccountFactoryED25519, AccountFactoryECDSA, PublicNode, Anchor };
 
 export class LTO {
 
